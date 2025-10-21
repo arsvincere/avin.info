@@ -18,7 +18,7 @@
 <body>
   <header class="home-header">
     <div class="home-banner-container">
-      <h2 class="home-subtitle">Сайт трейдеров и для трейдеров</h2>
+      <p class="home-subtitle">Сайт трейдеров и для трейдеров</p>
       <h1 class="home-title">Ars Vincere</h1>
     </div>
     <nav class="navigation">
@@ -47,36 +47,130 @@
     </nav>
   </header>
   <main class="home-main">
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
-    <p>Text</p>
+    <section class="chess">
+      <h2 class="chess-title">Кремниевые против углеродных</h2>
+      <p class="chess-text">
+        11 мая 1997г шахматный суперкомпьютер Deep Blue, разработанный
+        компанией IBM, победил чемпиона мира Гарри Каспарова. А за 50
+        лет до этого, лучшие программисты и математики в серьез
+        задавались вопросом: "Может ли компьютер победить человека
+        в шахматы?". Слишком много комбинаций, не хватало вычислительных
+        мощностей. Да и сейчас, тупым перебором в лоб задачу не решить.
+        Требовалось оттачивать алгоритмы, на это ушли десятилетия.
+        Со времен победы над Каспаровым, прошла еще пара десятков лет, теперь
+        современный шахматный движок Stockfish легко уделывает любого
+        гроссмейстера на простом домашнем компьютере.
+      </p>
+      <p class="chess-text">
+        В 2017 году AlphaZero - нейронка от Google - сыграла со Stockfish v8.
+        Было проведено 100 партий. Не проиграв ни одной партии, выиграно 28 и
+        сведено в ничью остальные 72. На гроссмейстерском уровне большинство
+        партий заканчиваются в ничью, просто уже достигнут предел игры.
+        Так что, такой счет означает не "они примерно равны, но AlphaZero
+        немного выигрывает", а буквально разгром в сухую.
+      </p>
+      <p class="chess-text">
+        О применении компьютеров в трейдинге заговорили с тех самых пор как
+        компьютеры появились у трейдеров, где-то в 60х. Массово вышли на рынок
+        роботы после 2014г. Крупные фонды и умные одиночки уже давно
+        экспериментируют с нейронными сетями в трейдинге. Но тут задача еще
+        сложнее, еще больше комбинаций, высокий процент шума в данных.
+        Пока, углеродные мозги трейдеров торгуют лучше, чем кремниевые. Но
+        экстраполируя историю в шахматах, очевидно, это дело времени.
+        Современные трейдеры уже давно отмечают, с каждым годом торговать
+        становится все сложнее, как раз потому, что сделок совершенных
+        роботами на бирже уже давно больше, чем сделок совершенных вручную.
+      </p>
+      <p class="chess-text">
+        Не думаю, что торговля в ручную будет полностью вытеснена на нашем
+        веку, но ее доля продолжит снижаться, а способности кремниевых
+        трейдеров продолжат расти. Время определиться, на какой стороне
+        ты будешь.
+      </p>
+    </section>
+    <section class="about">
+      <h2 class="about-title">AVIN</h2>
+      <p class="about-text">
+        AVIN (от лат. Ars Vincere - искусство побеждать) — это
+        кросплатформенная трейдинговая система. Написана на
+        Rust, GUI на веб-технологиях, через Tauri.
+
+        Содержит все, что нужно для алготрейдинга: от загрузки
+        исторических данных и разработки стратегии, до запуска
+        в боевой режим и построения отчетов.
+      </p>
+
+      <p class="about-text">
+        Интерфейсы и принципы работы стремятся быть такими же простыми,
+        как Pine от TradingView, но реализация на Rust дает возможность
+        создавать сложные алгоритмы, и обеспечивает скорость достаточную
+        для работы с тиковыми данными, кластерами и стаканом на grpc-стриме.
+      </p>
+      <ul class="about-list">
+        <li class="about-list-item">
+          <img class="about-image" src="img/about/data.png" width="160" height="160" alt="AVIN Data">
+          <div class="about-container">
+            <h3 class="about-item-title">Data</h3>
+            <p class="about-item-text">
+              Загрузка и обновление исторических данных: бары, тики, стаканы,
+              SuperCandle. Пока с Московской биржи.
+            </p>
+          </div>
+        </li>
+        <li class="about-list-item">
+          <img class="about-image" src="img/about/core.png" width="160" height="160" alt="AVIN Core">
+          <div class="about-container">
+            <h3 class="about-item-title">Core</h3>
+            <p class="about-item-text">
+              Cтруктуры для удобной работы с данными на "трейдерском языке":
+              график, бар, таймфрейм, ордер, брокер...
+            </p>
+          </div>
+        </li>
+        <li class="about-list-item">
+          <img class="about-image" src="img/about/strategy.png" width="160" height="160" alt="AVIN Strategy">
+          <div class="about-container">
+            <h3 class="about-item-title">Strategy</h3>
+            <p class="about-item-text">
+              Базовый интерфейс для создания своих стратегий.
+              Стратегия работает одинаково в тестере и боевом режиме.
+            </p>
+          </div>
+        </li>
+        <li class="about-list-item">
+          <img class="about-image" src="img/about/tester.png" width="160" height="160" alt="AVIN Tester">
+          <div class="about-container">
+            <h3 class="about-item-title">Tester</h3>
+            <p class="about-item-text">
+              Простой, но очень быстрый бэк-тестер. Наглядные отчеты 15+ метрик,
+              кривая капиталла, коэффициент Шарпа, Сортино...
+            </p>
+          </div>
+        </li>
+        <li class="about-list-item">
+          <img class="about-image" src="img/about/trader.png" width="160" height="160" alt="AVIN Trader">
+          <div class="about-container">
+            <h3 class="about-item-title">Trader</h3>
+            <p class="about-item-text">
+              Модуль управления роботами в боевом режиме.
+              Пока доступно подключение только к Тинькофф брокеру через API.
+            </p>
+          </div>
+        </li>
+        <li class="about-list-item">
+          <img class="about-image" src="img/about/terminal.png" width="160" height="160" alt="AVIN Terminal">
+          <div class="about-container">
+            <h3 class="about-item-title">Terminal</h3>
+            <p class="about-item-text">
+              Терминал для торговли в ручную, с возможностью
+              расширения под свои задачи через бинарные плагины.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+
+    </section>
   </main>
 </body>
 
