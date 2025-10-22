@@ -36,7 +36,7 @@ body {
   overflow: hidden;
 }
 
-.home-banner-container {
+.home-title-container {
   background-image: url("../img/dim/dim_60.png"), url("../img/cover/home.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
