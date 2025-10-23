@@ -55,6 +55,7 @@ body {
   letter-spacing: 4px;
   margin: 0;
   padding-top: 80px;
+  margin-bottom: 100px;
 }
 
 .home-subtitle {
@@ -64,9 +65,29 @@ body {
   width: 640px;
   color: #DCD7BA;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 20px;
   border-bottom: 2px solid #7FB4CA;
+}
+
+.description-list {
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  width: 1000px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style-type: none;
+}
+
+.description-title {
+  border-top: 1px solid #AAAAAA;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.description-text {
+  border-bottom: 1px solid #AAAAAA;
+  padding-bottom: 20px;
 }
 
 .navigation {
@@ -271,4 +292,43 @@ body {
 
 .last {
   margin-bottom: 0px;
+}
+
+.page-footer {
+  background-color: #080808;
+}
+
+.footer-container {
+  margin: 0 auto;
+  display: grid;
+  width: 1000px;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-list-title {
+  font-size: 18px;
+}
+
+.footer-list-text {
+  color: #AAAAAA;
+}
+
+.footer-list-link {
+  color: #AAAAAA;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #CCCCCC;
+  font-weight: 700;
+}
+
+.copyright {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
 }
