@@ -21,7 +21,7 @@ body {
   line-height: 24px;
   font-weight: 400;
   font-style: normal;
-  color: #EDEDED;
+  color: #DDDDDD;
   background-color: #1F1F28;
 }
 
@@ -38,7 +38,7 @@ body {
 
 .home-title-container {
   background-image: url("../img/dim/dim_60.png"), url("../img/cover/home.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: inherit;
@@ -113,30 +113,9 @@ body {
   color: #7FB4CA;
 }
 
-.chess {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 70px;
-}
-
-.chess-title {
-  font-style: normal;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  width: 640px;
-  /* color: #C8C093; */
-  padding-bottom: 20px;
-}
-
-.chess-text {
-  /* color: #DCD7BA; */
-  text-align: justify;
-}
-
 .about {
   background-image: url("../img/bg/about.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: inherit;
   color: inherit;
@@ -198,4 +177,98 @@ body {
   margin: 0;
   padding-right: 20px;
   padding-top: 20px;
+}
+
+.author {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto 70px;
+  padding-top: 70px;
+}
+
+.author-photo {
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.author-title {
+  text-align: center;
+  color: #658595;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.author-subtitle {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.author-text {
+  text-align: justify;
+}
+
+.now {
+  width: 1000px;
+  margin: 0 auto 70px;
+}
+
+.bablo {
+  width: 1000px;
+  margin: 0 auto 70px;
+}
+
+.bablo-button {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid #658595;
+  border-radius: 6px;
+  color: #658595;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.bablo-button:hover {
+  background-color: #658595;
+  color: #FFFFFF;
+  transition: 1000ms;
+}
+
+.bablo-button:active {
+  opacity: 0;
+  transition: 200ms;
+}
+
+.chess {
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 0 auto 70px;
+  background-color: #363646;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #54546D;
+}
+
+.chess-title {
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 640px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.chess-text {
+  text-align: justify;
+}
+
+.last {
+  margin-bottom: 0px;
 }
