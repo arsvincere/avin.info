@@ -93,6 +93,8 @@ body {
 .navigation {
   background-color: #080808;
   height: 10vh;
+  position: sticky;
+  top: 0;
 }
 
 .navigation-container {
@@ -315,16 +317,19 @@ body {
 
 .footer-list-text {
   color: #AAAAAA;
+  font-size: 14px;
 }
 
 .footer-list-link {
   color: #AAAAAA;
+  font-size: 14px;
 }
 
 .contact-link {
   text-decoration: none;
   color: #CCCCCC;
   font-weight: 700;
+  font-size: 14px;
 }
 
 .copyright {
