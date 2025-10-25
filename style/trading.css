@@ -38,6 +38,7 @@ body {
 
 .trading-header {
   background-image: url("../img/cover/trading.jpg");
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: inherit;
@@ -75,4 +76,34 @@ body {
 
 .trading-description {
   color: #AAAAAA;
+}
+
+.book {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.book-title {
+  margin-top: 70px;
+  font-size: 32px;
+  border-left: 5px solid #836f4a;
+  padding: 10px;
+}
+
+.book-list {
+  color: #836f4a;
+}
+
+.book-list-item-link {
+  color: #836f4a;
+  text-decoration: none;
+}
+
+.book-list-item-text {
+  margin: 0;
+  color: #AAAAAA;
+}
+
+.book-list-item-link:hover {
+  text-decoration: underline;
 }
