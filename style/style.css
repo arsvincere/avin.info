@@ -303,6 +303,11 @@ body {
   font-size: 14px;
 }
 
+.contact-icon {
+  position: relative;
+  top: 7px;
+}
+
 .contact-link {
   text-decoration: none;
   color: #CCCCCC;
@@ -310,17 +315,6 @@ body {
   font-size: 14px;
 }
 
-.email::before {
-  content: url("../img/icons/email.svg");
-}
-
-.telegram::before {
-  content: url("../img/icons/telegram.svg");
-}
-
-.habr::before {
-  content: url("../img/icons/habr.svg");
-}
 
 .copyright {
   color: #AAAAAA;

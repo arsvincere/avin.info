@@ -62,32 +62,36 @@ body {
   color: #AAAAAA;
 }
 
-.book {
+.refs {
   width: 1000px;
   margin: 0 auto;
 }
 
-.book-title {
+.refs.last {
+  margin-bottom: 70px;
+}
+
+.refs-title {
   margin-top: 70px;
   font-size: 32px;
   border-left: 5px solid #836f4a;
   padding: 10px;
 }
 
-.book-list {
+.refs-list {
   color: #836f4a;
 }
 
-.book-list-item-link {
+.refs-list-item-link {
   color: #836f4a;
   text-decoration: none;
 }
 
-.book-list-item-text {
+.refs-list-item-text {
   margin: 0;
   color: #AAAAAA;
 }
 
-.book-list-item-link:hover {
+.refs-list-item-link:hover {
   text-decoration: underline;
 }
