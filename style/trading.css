@@ -29,14 +29,14 @@ body {
   color: inherit;
   text-align: center;
   height: 60vh;
+  display: flex;
+  align-items: center;
 }
 
 .trading-header-container {
   background-color: rgba(0, 0, 0, 0.7);
   width: 600px;
   margin: 0 auto;
-  position: relative;
-  top: 150px;
   padding: 20px;
 }
 
