@@ -15,42 +15,40 @@
 
 <body>
   <header class="home-header">
-    <div class="home-title-container">
-      <p class="home-subtitle">Сайт трейдеров и для трейдеров</p>
-      <h1 class="home-title">Ars Vincere</h1>
-      <ul class="description-list">
-        <li class="description-list-item">
-          <img class="description-icon" src="img/icons/project.svg" width="75" height="75">
-          <h2 class="description-title">Project</h2>
-          <p class="description-text">
-            Торговая платформа AVIN: возможности, быстрый старт,
-            документация
-          </p>
-        </li>
-        <li class="description-list-item">
-          <img class="description-icon" src="img/icons/trading.svg" width="75" height="75">
-          <h2 class="description-title">Trading</h2>
-          <p class="description-text">
-            Механические торговые системы, исследования рынка,
-            алгоритмы
-          </p>
-        </li>
-        <li class="description-list-item">
-          <img class="description-icon" src="img/icons/coding.svg" width="75" height="75">
-          <h2 class="description-title">Coding</h2>
-          <p class="description-text">
-            Программирование на Python/Rust, с нуля до алготрейдера
-          </p>
-        </li>
-        <li class="description-list-item">
-          <img class="description-icon" src="img/icons/maths.svg" width="75" height="75">
-          <h2 class="description-title">Maths</h2>
-          <p class="description-text">
-            Теория вероятностей, математическая статистика, линейная алгебра
-          </p>
-        </li>
-      </ul>
-    </div>
+    <p class="home-subtitle">Сайт трейдеров и для трейдеров</p>
+    <h1 class="home-title">Ars Vincere</h1>
+    <ul class="description-list">
+      <li class="description-list-item">
+        <img class="description-icon" src="img/icons/project.svg" width="64" height="64">
+        <h2 class="description-title">Project</h2>
+        <p class="description-text">
+          Торговая платформа AVIN: возможности, быстрый старт,
+          документация
+        </p>
+      </li>
+      <li class="description-list-item">
+        <img class="description-icon" src="img/icons/trading.svg" width="64" height="64">
+        <h2 class="description-title">Trading</h2>
+        <p class="description-text">
+          Механические торговые системы, исследования рынка,
+          алгоритмы
+        </p>
+      </li>
+      <li class="description-list-item">
+        <img class="description-icon" src="img/icons/coding.svg" width="64" height="64">
+        <h2 class="description-title">Coding</h2>
+        <p class="description-text">
+          Программирование на Python/Rust, с нуля до алготрейдера
+        </p>
+      </li>
+      <li class="description-list-item">
+        <img class="description-icon" src="img/icons/maths.svg" width="64" height="64">
+        <h2 class="description-title">Maths</h2>
+        <p class="description-text">
+          Теория вероятностей, математическая статистика, линейная алгебра
+        </p>
+      </li>
+    </ul>
   </header>
   <nav class="navigation">
     <div class="navigation-container">
@@ -62,16 +60,16 @@
           <a class="navigation-link navigation-link-current home" href="index.html">Project</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link home" href="#">Trading</a>
+          <a class="navigation-link home" href="trading.html">Trading</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link home" href="#">Coding</a>
+          <a class="navigation-link home" href="coding.html">Coding</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link home" href="#">Maths</a>
+          <a class="navigation-link home" href="maths.html">Maths</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link home" href="#">Blog</a>
+          <a class="navigation-link home" href="blog.html">Blog</a>
         </li>
       </ul>
     </div>
@@ -208,18 +206,6 @@
         на веб-технологиях через Tauri.
       </p>
     </section>
-    <section class="bablo visually-hidden">
-      <button class="bablo-button ">Кнопка Бабло</button>
-      <p class="bablo-text">
-        Существует расхожая фраза про кнопку бабло, и мол ее не бывает.
-        Но алготрейдинг это пожалуй единственная сфера, где такую кнопку
-        можно сделать. Библиотека 'avin' может помочь в создании такой кнопки
-        для себя. Представь, просыпаешься ты, включаешь компьютер, щелкаюшь
-        одну кнопку, и идешь заниматься своими делами. Лично меня,
-        такой расклад мотивирует упорно продолжать разработку и исследования
-        рыночных данных.
-      </p>
-    </section>
     <section class="chess">
       <h2 class="chess-title">Кремниевые против углеродных</h2>
       <p class="chess-text">
@@ -240,7 +226,7 @@
         выиграла 28 и свела в ничью остальные 72. На гроссмейстерском уровне
         большинство партий заканчиваются в ничью, просто уже достигнут предел
         игры. Так что, такой счет означает не "они примерно равны, но
-        AlphaZero немного выигрывает", а буквально разгром в сухую.
+        AlphaZero немного выигрывает", а разгром в сухую.
       </p>
       <p class="chess-text">
         О применении компьютеров в трейдинге заговорили с тех самых пор как
@@ -272,15 +258,16 @@
           <p class="footer-list-text">Если не отвечаю пару недель - это норма</p>
         </li>
         <li class="footer-list-item">
-          <p class="footer-list-text">email: <a class="contact-link"
+          <p class="footer-list-text email">Email: <a class="contact-link"
               href="mailto:mr.alexavin@gmail.com">mr.alexavin@gmail.com</a> </p>
         </li>
         <li class="footer-list-item">
-          <p class="footer-list-text">telegram: <a class="contact-link" href="https://t.me/mr_alexavin">@mr_alexavin</a>
+          <p class="footer-list-text telegram">Telegram: <a class="contact-link"
+              href="https://t.me/mr_alexavin">@mr_alexavin</a>
           </p>
         </li>
         <li class="footer-list-item">
-          <p class="footer-list-text">habr: <a class="contact-link"
+          <p class="footer-list-text habr">Habr: <a class="contact-link"
               href="https://habr.com/ru/users/arsvincere/">@arsvincere</a></p>
         </li>
       </ul>
