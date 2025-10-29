@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "SourceCodePro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/SourceCodePro-Regular.ttf.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceCodePro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/SourceCodePro-Bold.ttf.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #CCCCCC;
+  background-color: #1F1F28;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.blog-header {
+  background-image: url("../img/cover/blog.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  background-position: center;
+  color: inherit;
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.blog-header-container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.blog-title {
+  font-size: 48px;
+  text-shadow: 2px 2px 5px black;
+  letter-spacing: 2px;
+  margin-left: auto;
+}
+
+.blog-description {
+  color: #ffffff;
+}

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "SourceCodePro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/SourceCodePro-Regular.ttf.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceCodePro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/SourceCodePro-Bold.ttf.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #CCCCCC;
+  background-color: #1F1F28;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.coding-header {
+  background-image: url("../img/cover/coding.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  color: inherit;
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.coding-header-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.coding-title {
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.coding-subtitle {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #C34044;
+  border-bottom: 2px solid #AAAAAA;
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.coding-description {
+  color: #AAAAAA;
+}

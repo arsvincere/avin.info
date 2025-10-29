@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #CCCCCC;
+  background-color: #1F1F28;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.trading-header {
+  background-image: url("../img/cover/trading.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  color: inherit;
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.trading-header-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.trading-title {
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.trading-subtitle {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #836f4a;
+  border-bottom: 2px solid #AAAAAA;
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.trading-description {
+  color: #AAAAAA;
+}
+
+.refs {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.refs.last {
+  margin-bottom: 70px;
+}
+
+.refs-title {
+  margin-top: 70px;
+  font-size: 32px;
+  border-left: 5px solid #836f4a;
+  padding: 10px;
+}
+
+.refs-list {
+  color: #836f4a;
+}
+
+.refs-list-item-link {
+  color: #836f4a;
+  text-decoration: none;
+}
+
+.refs-list-item-text {
+  margin: 0;
+  color: #AAAAAA;
+}
+
+.refs-list-item-link:hover {
+  text-decoration: underline;
+}
