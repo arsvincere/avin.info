@@ -37,17 +37,17 @@ body {
 }
 
 .blog-header {
+  display: flex;
+  align-items: center;
   background-image: url("../img/cover/blog.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: inherit;
   background-position: center;
+  background-color: inherit;
   color: inherit;
   text-align: center;
   height: 60vh;
-  display: flex;
-  align-items: center;
 }
 
 .blog-header-container {
@@ -58,7 +58,7 @@ body {
 
 .blog-title {
   font-size: 48px;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 4px black;
   letter-spacing: 2px;
   margin-left: auto;
 }
@@ -84,7 +84,7 @@ body {
 }
 
 .about-blog {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 .posts-list {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
   list-style-type: none;
   padding: 0;
@@ -109,6 +109,7 @@ body {
 .posts-item {
   display: flex;
   grid-template-columns: 100px 100px;
+  margin-bottom: 40px;
 }
 
 .posts-item img {
